@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,900&display=swap');
+
+
+
+* {
+
+	margin: 0;
+
+	padding: 0;
+
+	box-sizing: border-box;
+
+}
+
+
+
+body {
+
+	font-family: "Lato", sans-serif;
+
+    background: #feefdd;
+
+}
+
+
+
+header {
+
+	background-color: #cc5803;
+
+	display: flex;
+
+	align-items: center;
+
+	justify-content: center;
+
+	padding: 20px;
+
+	border: 1px solid rgba(0, 0, 0, 0.1);
+
+    border-radius: 20px;
+
+}
+
+
+
+
+
+header,
+
+main {
+
+	max-width: 767px;
+
+	margin: 0 auto;
+
+}
+
+
+
+h1 {
+
+    display: block;
+
+	font-size: 2rem;
+
+    margin-left: 20px;
+
+    
+
+}
+
+
+
+nav {
+
+	background-color: #183a37;
+
+	margin: 0 auto;
+
+	max-width: 800px;
+
+    font-weight: bold;
+
+    border-bottom-left-radius: 15px;
+
+    border-top-right-radius: 15px;
+
+}
+
+
+
+nav ul {
+
+	list-style-type: none;
+
+}
+
+
+
+nav a {
+
+	display: block;
+
+	color: #fff;
+
+	text-align: center;
+
+	padding: 1rem;
+
+	text-decoration: none;
+
+}
+
+
+
+nav a:hover {
+
+	border: 1px solid #ffc300;
+
+}
+
+
+
+.active {
+
+	color: yellow;
+
+}
+
+
+
+h2 {
+
+    display: block;
+
+    text-align: center;
+
+    padding-top: 10px;
+
+    color: #001d3d;
+
+  }
+
+
+
+ .grid-container {
+
+    /*display: grid;
+
+    gap: 1.5rem;
+
+    grid-template-columns: 100px 100px 100px;*/
+
+
+
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 20px;
+
+  }
+
+
+
+ main {
+
+    margin-bottom: 20px;
+
+ }
+
+
+
+  .card {
+
+    background-color: #ff7900;
+
+    padding: 20px;
+
+    border-radius: 5px;
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    
+
+  }
+
+
+
+  .card h3 {
+
+    margin-top: 0;
+
+    text-align: center;
+
+    background: #fff;
+
+    padding: 10px;
+
+    border-radius: 15px;
+
+  }
+
+
+
+  .card ul {
+
+    list-style-type: none;
+
+    padding: 10px;
+
+  }
+
+
+
+  .card ul li {
+
+    margin-bottom: 5px;
+
+  }
+
+
+
+  .card ul li a {
+
+    text-decoration: none;
+
+    color: blue;
+
+    font-weight: bold;
+
+  }
+
+  
+
+  .card ul li a:hover {
+
+    color: yellow;
+
+  }
+
+
+
+footer {
+
+    background-color: #183a37;
+
+	margin: 0 auto;
+
+	max-width: 800px;
+
+    padding: 20px;
+
+    border-radius: 15px;
+
+}
+
+
+
+footer p {
+
+    color: #fff;
+
+    padding: 10px;
+
+    text-align: center;
+
+    font-weight: bold;
+
+}
+
+
+
+
+
+
+
+  

@@ -1,13 +1,113 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mpumelelo</title>
+
+    <meta name="description" content="Web development wdd230 BYUI school assignment for Mpumelelo Hlongwane.">
+
+    <meta name="author" content="Mpumelelo Hlongwane">
+
+    <link rel="stylesheet" href="styles/base.css">
+
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <title>Mpumelelo Hlongwane - WDD230 - Web Frontend Development</title>
+
 </head>
+
 <body>
-    <h1>Commit</h1>
-    <h2>Hello</h2>
-    <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse tenetur dolore, qui sint aperiam facilis, quaerat repudiandae accusamus impedit enim laborum commodi. Illo dolores praesentium numquam alias dolor, quaerat accusantium recusandae adipisci consectetur nam corrupti hic necessitatibus placeat officiis quae.</P>
+
+    <header>
+
+        <img src="images/mpumelelo.jpg" width="100" height="100" alt="Collin Horomba image photo">
+
+        <h1>Mpumelelo Hlongwane</h1>
+
+    </header>
+
+    <br>
+
+    <nav>
+
+        <ul>
+
+            <li><a href="index.html">Home</a></li> 
+
+            <li><a href="#">Chamber</a></li> 
+
+            <li><a href="chamber-site-plan.html">Site-Plan</a></li> 
+
+            <li><a href="#">Form</a></li> 
+
+        </ul>
+
+    </nav>
+
+    <main>
+
+        <h2>WDD 230: Web Frontend Development</h2>
+
+        <hr>
+
+        <br>
+
+        <div class="grid-container">
+
+            <section class="card">
+
+                <h3>Learning Activities</h3>
+
+                <ul>
+
+                    <li><a href="chamber-site-plan.html">Chamber Site Plan</a></li>
+
+                    <li><a href="#">Learning - 2</a></li>
+
+                    <li><a href="#">Learning - 3</a></li>
+
+                    <li><a href="#">Learning - 4</a></li>
+
+                    <li><a href="#">Learning - 5</a></li>
+
+                    <li><a href="#">Learning - 6</a></li>
+
+                    <li><a href="#">Learning - 7</a></li>
+
+                </ul>
+
+            </section>
+
+            <section class="card">
+
+                <h3>Information</h3>
+
+            </section>    
+
+        </div>
+
+    </main>
+
+    <footer>
+
+        <div id="footer-sect">
+
+            <p>&copy;<span id="currentYear"></span> | Mpumelelo Hlongwane | South Africa</p>
+
+            <p class="last-update">Last Modified: <span id="currentDateAndTime"></span></p>
+
+            <script src="js/script.js"></script>
+
+        </div>
+
+    </footer>
+
+    <script src="scripts/getDates.js"></script>
+
 </body>
+
 </html>
