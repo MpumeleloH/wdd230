@@ -64,7 +64,7 @@
   }
 
 #hero {
-  background-image: url('images/soweto.jpg');
+  background-image: url('../images/soweto.jpg');
   border: 2px solid #009ac9;
   padding: 25px;
   background-repeat: no-repeat;
@@ -318,6 +318,12 @@ a {
       
       #contact ul li {
         margin-bottom: 10px;
+      }
+      
+      .contact-card {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
       }
       
       /* Footer styles */
