@@ -1,0 +1,36 @@
+@media only screen and (max-width: 600px) {
+    /* Header styles for mobile devices */
+    header {
+      /* mobile styles */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      justify-content: space-evenly;
+    }
+  
+    /* Navigation styles for mobile devices */
+    nav {
+      /* mobile styles */
+      order: 2;
+      margin-top: 20px;
+    }
+  
+    /* Main styles for mobile devices */
+    main {
+      /* mobile styles */
+      padding: 20px;
+    }
+  
+    /* Section styles for mobile devices */
+    section {
+      /* mobile styles */
+      margin-bottom: 20px;
+    }
+  
+    /* Footer styles for mobile devices */
+    footer {
+      /* mobile styles */
+      text-align: center;
+    }
+  }
