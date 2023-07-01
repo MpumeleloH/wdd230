@@ -18,7 +18,7 @@ body {
 
 	font-family: "Lato", sans-serif;
 
-    background: #feefdd;
+    background: white;
 
 }
 
@@ -26,7 +26,7 @@ body {
 
 header {
 
-	background-color: #cc5803;
+	background-color: #333;
 
 	display: flex;
 
@@ -62,6 +62,8 @@ h1 {
 
     display: block;
 
+    color: #fff;
+
 	font-size: 2rem;
 
     margin-left: 20px;
@@ -74,7 +76,7 @@ h1 {
 
 nav {
 
-	background-color: #183a37;
+	background-color: #333;
 
 	margin: 0 auto;
 
@@ -174,7 +176,7 @@ h2 {
 
   .card {
 
-    background-color: #ff7900;
+    background-color: #009ac9;
 
     padding: 20px;
 
@@ -226,7 +228,7 @@ h2 {
 
     text-decoration: none;
 
-    color: blue;
+    color: white;
 
     font-weight: bold;
 
@@ -244,7 +246,7 @@ h2 {
 
 footer {
 
-    background-color: #183a37;
+    background-color: #333;
 
 	margin: 0 auto;
 
