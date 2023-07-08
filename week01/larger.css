@@ -1,0 +1,88 @@
+@media (min-width: 640px) {
+
+	nav ul {
+
+		display: flex;
+
+	}
+
+	nav ul li {
+
+		flex: 1 1 100%;
+
+	}
+
+}
+
+
+
+@media (max-width: 600px) {
+
+    .grid-container {
+
+      grid-template-columns: 1fr;
+
+    }
+
+  }
+
+
+
+  @media (max-width: 600px) {
+
+    h2 {
+
+      display: inline;
+
+      font-size: small;
+
+    }
+
+  }
+
+
+
+  @media (max-width: 600px) {
+
+    h1 {
+
+        display: inline;
+
+        font-size: medium;
+
+    }
+
+  }
+
+  /*site plan */
+
+  @media (max-width: 600px) {
+    /* CSS styles specific to small screens */
+
+    /* Example styles */
+    body {
+        font-size: 14px;
+    }
+
+    .card {
+        padding: 10px;
+    }
+
+    h2 {
+      font-size: 20px;
+      color: blue;
+      margin-bottom: 20px;
+  
+}
+
+
+  }
+
+  @media (max-width: 600px) {
+    h2 {
+      display: inline;
+      font-size: small;
+      text-align: center;
+    }
+    
+  }
