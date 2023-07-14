@@ -161,7 +161,8 @@
   }
   
   /* Events section styles */
-  #events {
+  #events-1 #events-2 #events-3 #events-4 
+  #events-5 #events-6 #events-7 {
     margin-bottom: 40px;
   }
   
@@ -170,17 +171,20 @@
     margin-bottom: 10px;
     text-align: center;
   }
-  #events p {
+  #events-1 #events-2 #events-3 #events-4 
+  #events-5 #events-6 #events-7 p {
     font-size: 16px;
     line-height: 1.4;
   }
   
-  #events ul {
+  #events-1 #events-2 #events-3 #events-4 
+  #events-5 #events-6 #events-7 ul {
     list-style: disc;
     padding-left: 20px;
   }
   
-  #events ul li {
+  #events-1 #events-2 #events-3 #events-4 
+  #events-5 #events-6 #events-7 ul li {
     margin-bottom: 10px;
   }
 
