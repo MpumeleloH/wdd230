@@ -341,3 +341,50 @@ a {
       footer p {
         font-size: 14px;
       }
+
+      /* Mobile. Weather card */
+.weather-card {
+  box-shadow: 2px 2px 8px var(--accent1-color);
+  border-radius: 8px;
+
+  background: #56CCF2;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #548dd8, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #96aece, #d1e8f0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  max-width: 300px;
+  width: 80%;
+  margin: 1rem auto 1.5rem auto;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  text-align: center;
+  padding: .5rem;
+  font-size: 1.2rem;
+}
+
+.weather-measure {
+  line-height: 2rem;
+  font-weight: 500;
+}
+
+.weather-card img {
+  width: 60px;
+}
+
+.daily-forecast {
+  width: 90%;
+  max-width: 580px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 10px;
+}
+
+.daily-forecast div {
+  border: 1px solid rgba(0, 0, 0, 0.199);
+  border-radius: 8px;
+  min-width: 150px;
+}
+
+.daily-forecast p {
+  padding: .5rem;
+}
