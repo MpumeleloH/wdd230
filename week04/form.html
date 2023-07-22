@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta property="og:title" content="Soweto chamber of Commerce" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://mpumeleloh.github.io/wdd230/" />
+  <meta property="og:image" content="https://www.sahistory.org.za/place/soweto-johannesburg">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/19bbbc66ea.js" crossorigin="anonymous"></script>
+  <title>Soweto Chamber of Commerce</title>
+  <link rel="icon" href="../wdd230-1/Chamber/images/soweto.jpg">
+  <link rel="stylesheet" href="./styles/form.css">
+  <link rel="stylesheet" href="../Chamber/styles/base.css">
+  <link rel="stylesheet" href="../Chamber/styles/large.css">
+  <link rel="stylesheet" href="../Chamber/styles/normalize.css">
+</head>
+
+<body>
+    <header>
+      <a class="logo" href="sample.html"><h1>Soweto Chamber</h1></a>
+      <nav>
+        <ul>
+          <li><a href="../Chamber/index.html"><i class="fa-solid fa-house"></i>Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#event">Current Events</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+<main>
+    <form id="register">
+    <div class="container">
+      <h2>Register</h2>
+      <p>Please fill in this form to create an account.</p>
+      <hr>
+ 
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" id="email" required>
+ 
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+ 
+      <label for="psw-repeat"><b>Repeat Password</b></label>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+      <hr>
+      <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+ 
+      <button type="submit" class="registerbtn">Register</button>
+    </div>
+   
+    <div class="container signin">
+      <p>Already have an account? <a href="#">Sign in</a>.</p>
+    </div>
+  </form>
+</main>
+<footer>
+    <div id="footer-sect">
+      <p>&copy;<span id="currentYear"></span> | Mpumelelo Hlongwane | South Africa</p>
+      <p class="last-update">Last Modified: <span id="currentDateAndTime"></span></p>
+      <div style="margin: 24px 0;">
+        <a href="#"><i class="fa fa-twitter"></i></a>  
+        <a href="#"><i class="fa fa-linkedin"></i></a>  
+        <a href="#"><i class="fa fa-facebook"></i></a>
+      </div>
+  </div>
+  </footer>
+
+  <script src="scripts/form.js"></script>
+
+</body>
+</html> 
