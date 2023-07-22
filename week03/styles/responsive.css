@@ -1,0 +1,32 @@
+img {
+    width: 100%;
+    height: auto;
+  }
+
+  footer {
+
+    background-color: #333;
+
+	margin: 0 auto;
+
+	max-width: 800px;
+
+    padding: 20px;
+
+    border-radius: 15px;
+
+}
+
+
+
+footer p {
+
+    color: #fff;
+
+    padding: 10px;
+
+    text-align: center;
+
+    font-weight: bold;
+
+}

@@ -10,7 +10,7 @@
     font-family: 'Akatab';
     line-height: 1.6;
     background-color: #f5f5f5;
-    color: #333;
+    color: #333333;
   }
   
   /* Header styles */
@@ -65,7 +65,7 @@
 
 #hero {
   background-image: url('../images/soweto.jpg');
-  border: 2px solid #009ac9;
+  border: 2px solid #17202A;
   padding: 25px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -103,7 +103,7 @@
 }
 
 #hero .btn:hover {
-  background-color: #009ac9;
+  background-color: #17202A;
   color: white;
   border-color: #009ac9;
 }
@@ -206,7 +206,7 @@
     display: inline-block;
     padding: 8px;
     color: white;
-    background-color: #009ac9;
+    background-color: #17202A;
     text-align: center;
     cursor: pointer;
     width: 100%;
@@ -269,7 +269,7 @@ hr {
   
   /* Set a style for the submit/register button */
   .registerbtn {
-    background-color: #009ac9;
+    background-color: #17202A;
     color: white;
     padding: 16px 20px;
     margin: 8px 0;

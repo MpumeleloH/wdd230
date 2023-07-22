@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Set the viewport to make the website look good on all devices:-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Set page title-->
+    <title>Responsive Images</title>
+
+    <!-- Meta tags: Description an author. Used in Google results page -->
+    <meta name="description" content="Responsive Images Demonstration" />
+    <meta name="author" content="" />
+
+    <!-- External CSS files -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="./styles/responsive.css" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" />
+  </head>
+  <body>
+    <main>
+      <div class="hero">
+        <picture>
+          <source
+            media="(max-width: 500px)"
+            srcset="images/temple01.webp"
+          />
+          <source
+            media="(max-width: 1000px)"
+            srcset="images/temple01.webp"
+          />
+          <img
+            src="images/temple01.webp"
+            alt="Rexburg Idaho Temple"
+            width="1500"
+            height="750"
+          />
+        </picture>
+      </div>
+ 
+    </main>
+    <footer>
+
+        <div id="footer-sect">
+
+            <p>&copy;<span id="currentYear"></span> | Mpumelelo Hlongwane | South Africa</p>
+
+            <p class="last-update">Last Modified: <span id="currentDateAndTime"></span></p>
+
+            <script src="js/script.js"></script>
+
+        </div>
+
+    </footer>
+    <script src="./scripts/responsive.js"></script>
+
+  </body>
+</html>
